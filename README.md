@@ -7,3 +7,7 @@ This is the routing of the circuit.
 
 This is the explode view of our leg desing
 ![exploded_view](https://github.com/user-attachments/assets/c3bbbeee-4ae7-49cc-bdea-6c5eb7eb5985)
+
+This is walking tracking of the real human 
+
+![walking](https://github.com/user-attachments/assets/96e04ca8-15ed-4424-8111-9e3d8b4e9166)
