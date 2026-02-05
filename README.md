@@ -11,3 +11,7 @@ This is the explode view of our leg desing
 This is walking tracking of the real human 
 
 ![walking](https://github.com/user-attachments/assets/96e04ca8-15ed-4424-8111-9e3d8b4e9166)
+
+And here is the gait animation of ankle robotics leg we able to follow.
+
+![gait_animation](https://github.com/user-attachments/assets/d835901e-075b-4244-8f12-6aa7c9b1546b)
