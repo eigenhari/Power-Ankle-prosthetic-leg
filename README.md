@@ -5,3 +5,5 @@ The hardware overview of our system is :
 This is the routing of the circuit.
 ![image](https://github.com/user-attachments/assets/ce00abb4-a6a8-4103-92dd-b807c1b12391)
 
+This is the explode view of our leg desing
+![exploded_view](https://github.com/user-attachments/assets/c3bbbeee-4ae7-49cc-bdea-6c5eb7eb5985)
