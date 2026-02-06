@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "OpenOCD Debug",
+            "cwd": "${workspaceFolder}",
+            "executable": "${workspaceFolder}/build/cubemars.elf",
+            "request": "launch",
+            "type": "cortex-debug",
+            "runToEntryPoint": "main",
+            "device": "STM32F407VG",
+            "interface": "swd",
+            "servertype": "openocd",
+            "configFiles": [
+                "interface/stlink-v2-1.cfg",
+                "target/stm32f4x.cfg"
+            ],
+            "gdbPath": "/usr/bin/gdb-multiarch"
+        }
+    ]
+}

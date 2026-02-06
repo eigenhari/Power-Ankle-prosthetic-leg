@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "buffer": "cpp",
+        "cstdint": "cpp"
+    }
+}
