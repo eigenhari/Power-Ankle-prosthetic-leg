@@ -1,3 +1,14 @@
+This package is designed to control and test a dynamic impedance ankle that has a Dynamixel servo, quadrature rotary encoder, and force resistive sensor using a STM32 microcontroller. It also contains test data from measuring the stiffness of the linear spring component and the entire ankle assembly in an Instron machine.
+
+ankle_control
+This section of the package is responsible for controlling the ankle assembly.
+
+encoder.c: Provides functions to enable the quadrature encoder with a STM32, read the position and velocity of the encoder, and write this information to UART.
+force_sensor.c: Provides functions that enable reading ADC from the Tiva's GPIO pins, read the ADC value and convert it to units of force, and write this information over UART.
+servo.c: Provides functions to enable UART for writing to a Dynamixel servo using Protocol 2.0, enable writing a goal position, enable reading a current position, toggle the built-in LED, and toggle between Rx and Tx modes.
+controller.c: Contains the main loop that, when loaded onto a stm32, continuously reads the force sensor and encoder data to write goal positions to the servo between steps.
+
+
 This repo contain we have done the in the "Development and validation of the ankle prosthestic leg" . We have develop the Ak60-motor library and control the ankle motion .
 The design of our system is given below:![assembly image](https://github.com/user-attachments/assets/5b660cee-9816-4001-9d1e-1da177350b90)
 The hardware overview of our system is :
